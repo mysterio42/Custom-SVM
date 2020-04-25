@@ -92,6 +92,13 @@ python run.py --load no --gen no --gs yes
 
 ### Confusion Matrix
 ![](figures/Figure_cm_C:0.1degree:2gamma:0.1kernel:linearGridSearchCV:yesaccuracy:1.00.png)
+
+## Accuracy Score: 1
+
+```text
+Do you want to save the model weight? yes
+Model saved at weights/svm-99gag.pkl
+```
 ### Best Optimal Parameters with 10-Fold GridSearchCV
 
 ```text
@@ -118,7 +125,7 @@ degree: 2
 ```shell
 python run.py --load no --gen no --gs no poly --degree 3 --gamma 10 --C 1
 ```
-## Confusion Matrixs
+## Confusion Matrix
 ![](figures/Figure_cm_C:0.1degree:2gamma:0.1kernel:linearGridSearchCV:yesaccuracy:1.00.png)
 
 ## Accuracy Score: 1
